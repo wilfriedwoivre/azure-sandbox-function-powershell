@@ -3,5 +3,6 @@
 # See https://aka.ms/functionsmanageddependency for additional information.
 #
 @{
+    'Az.Accounts' = '1.*';
     'Az.Resources' = '1.*'
 }
