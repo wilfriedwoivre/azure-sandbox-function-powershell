@@ -11,7 +11,7 @@ foreach ($resourceGroup in $elligibleResourceGroup) {
     if ($resourceGroup.Tags.Contains("ExpirationDate")) {
         $date = [System.DateTime]::Parse($resourceGroup.Tags["ExpirationDate"], [System.Globalization.CultureInfo]::GetCultureInfo("en-US"))
 
-        if ($date -lt $elligibleResourceGroup) {
+        if ($date -lt $currentUTCtime) {
             Remove-AzResourceGroup -Name $resourceGroup.ResourceGroupName -Force
         }
     }
