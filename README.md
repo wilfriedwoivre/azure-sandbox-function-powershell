@@ -1,6 +1,6 @@
 # Azure Sandbox
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://azuredeploy.net/?repository=https://github.com/wilfriedwoivre/azure-sandbox-function-powershell/tree/master)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fwilfriedwoivre%2Fazure-sandbox-function-powershell%2Fblob%2Fmaster%2Fazuredeploy.json)
 
 /!\ Powershell implementation of [https://github.com/wilfriedwoivre/azure-sandbox-function](https://github.com/wilfriedwoivre/azure-sandbox-function) C# version
 
